@@ -6,7 +6,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const client = new ApolloClient({
-  uri: 'http://https://catstronautsapp.herokuapp.com',
+  uri: 'https://catstronautsapp.herokuapp.com/',
   cache: new InMemoryCache(),
 });
 
